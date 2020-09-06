@@ -5,7 +5,7 @@ const instance = axios.create({
 });
 
 instance.interceptors.request.use(request => {
-    console.log(request);
+    //console.log(request);
     // Edit request config
     return request;
 }, error => {
